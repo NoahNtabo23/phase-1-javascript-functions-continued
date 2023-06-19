@@ -22,3 +22,8 @@ function mondayWork(activity){
 }
 mondayWork("work from home")
 
+function wrapAdjective(par = "*"){
+    return function (inner = "special"){
+        `You are ${par}a hard worker${par}!`
+    }
+}
